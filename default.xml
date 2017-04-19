@@ -1,27 +1,26 @@
- <?xmlversion="1.0"encoding="UTF-8"?>
- <manifest>
-	 <remotename="yoctoproject"
-		 fetch="git://git.yoctoproject.org/"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remotename="yoctoproject"
+        fetch="git://git.yoctoproject.org/"/>
 
-	 <remotename="openembedded"
-		 fetch="git://git.openembedded.org/"/>
+    <remotename="openembedded"
+        fetch="git://git.openembedded.org/"/>
 
-	 <remotename="github"
-		 fetch="git://github.com/"/>
+    <remotename="github"
+        fetch="git://github.com/"/>
 
-	 <projectname="poky"
-		 remote="yoctoproject"
-		 path="yocto_build"
-		 revision="morty"/>
+    <projectname="poky"
+        remote="yoctoproject"
+        path="yocto_build"
+        revision="morty"/>
 
-	 <projectname="meta-openembedded"
-		 remote="openembedded"
-		 path="yocto_build/meta-openembedded"
-		 revision="morty"/>
+    <projectname="meta-openembedded"
+        remote="openembedded"
+        path="yocto_build/meta-openembedded"
+        revision="morty"/>
 
-
-	 <projectname="jumpnow/meta-rpi"
-		 remote="github"
-		 path="yocto_build/meta-raspberrypi"
-		 revision="morty"/>
- </manifest>
+    <projectname="jumpnow/meta-rpi"
+        remote="github"
+        path="yocto_build/meta-raspberrypi"
+        revision="morty"/>
+</manifest>
