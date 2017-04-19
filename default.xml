@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remotename="yoctoproject"
+    <remote name="yoctoproject"
         fetch="git://git.yoctoproject.org/"/>
 
-    <remotename="openembedded"
+    <remote name="openembedded"
         fetch="git://git.openembedded.org/"/>
 
-    <remotename="github"
+    <remote name="github"
         fetch="git://github.com/"/>
 
-    <projectname="poky"
+    <project name="poky"
         remote="yoctoproject"
         path="yocto_build"
         revision="morty"/>
 
-    <projectname="meta-openembedded"
+    <project name="meta-openembedded"
         remote="openembedded"
         path="yocto_build/meta-openembedded"
         revision="morty"/>
 
-    <projectname="jumpnow/meta-rpi"
+    <project name="jumpnow/meta-rpi"
         remote="github"
         path="yocto_build/meta-raspberrypi"
         revision="morty"/>
