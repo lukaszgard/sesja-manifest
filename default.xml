@@ -19,8 +19,8 @@
         path="yocto_build/meta-openembedded"
         revision="morty"/>
 
-    <project name="jumpnow/meta-rpi"
-        remote="github"
+    <project name="meta-raspberrypi"
+        remote="yoctoproject"
         path="yocto_build/meta-raspberrypi"
         revision="morty"/>
 </manifest>
