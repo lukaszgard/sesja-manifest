@@ -1,5 +1,6 @@
-### Sesja Linuksowa 2014 
+### Sesja Linuksowa 2014 - Workshops
 
+http://14.sesja.linuksowa.pl/pl
 
 ## Getting Started
 
@@ -11,8 +12,7 @@ Prepare approximately 30 GB of size on your build host machine, Yocto during bui
 
 [System dependencies](http://www.yoctoproject.org/docs/2.2.1/ref-manual/ref-manual.html#required-packages-for-the-host-development-system)
 
-
-*In case of lack of supported distribution on your build host, install 'Ubuntu' on 'Virtual-Box'*
+*In case of lack of supported distribution on your build host install 'Ubuntu' on 'Virtual-Box'*
 
 ### Installing
 
@@ -40,7 +40,7 @@ cd yocto-build/
 source oe-init-build-env rpi-build
 ```
 
-Append in *bblayers.conf* meta-raspberrypi:
+Add meta-raspberrypi layer into conf/bblayers.conf file:
 ```
 BBLAYERS ?= " \
   /home/user/yocto-build/meta \
@@ -59,6 +59,8 @@ Build image:
 ```
 bitbake rpi-hwup-image
 ```
+
+
 ### Help links 
 
 * [Yocto Project Quick Start](http://www.yoctoproject.org/docs/2.2.1/yocto-project-qs/yocto-project-qs.html#yocto-project-qs-intro) - Quick overwiew on Yocto.
