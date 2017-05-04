@@ -3,24 +3,16 @@
     <remote name="yoctoproject"
         fetch="git://git.yoctoproject.org/"/>
 
-    <remote name="openembedded"
-        fetch="git://git.openembedded.org/"/>
-
     <remote name="github"
         fetch="git://github.com/"/>
 
     <project name="poky"
         remote="yoctoproject"
-        path="yocto_build"
-        revision="morty"/>
-
-    <project name="meta-openembedded"
-        remote="openembedded"
-        path="yocto_build/meta-openembedded"
+        path="yocto-build"
         revision="morty"/>
 
     <project name="meta-raspberrypi"
         remote="yoctoproject"
-        path="yocto_build/meta-raspberrypi"
+        path="yocto-build/meta-raspberrypi"
         revision="morty"/>
 </manifest>
