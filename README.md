@@ -1,4 +1,4 @@
-### Sesja Linuksowa 2014 - Workshops
+### Sesja Linuksowa 2017 - Workshops
 
 http://14.sesja.linuksowa.pl/pl
 
