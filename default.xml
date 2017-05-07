@@ -8,16 +8,16 @@
 
     <project name="poky"
         remote="yoctoproject"
-        path="yocto-build"
+        path="poky"
         revision="morty"/>
 
     <project name="meta-raspberrypi"
         remote="yoctoproject"
-        path="yocto-build/meta-raspberrypi"
+        path="poky/meta-raspberrypi"
 	revision="morty"/>
 
     <project name="lukaszgard/config-sample"
         remote="github"
-        path="yocto-build"
+        path="config-sample"
         revision="master"/>
 </manifest>
