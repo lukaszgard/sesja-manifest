@@ -14,5 +14,10 @@
     <project name="meta-raspberrypi"
         remote="yoctoproject"
         path="yocto-build/meta-raspberrypi"
-        revision="morty"/>
+	revision="morty"/>
+
+    <project name="lukaszgard/config-sample"
+        remote="github"
+        path="yocto-build"
+        revision="master"/>
 </manifest>
