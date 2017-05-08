@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="yoctoproject"
-        fetch="git://git.yoctoproject.org/"/>
+        fetch="https://git.yoctoproject.org/git/"/>
 
     <remote name="github"
-        fetch="git://github.com/"/>
+        fetch="https://github.com/"/>
 
     <project name="poky"
         remote="yoctoproject"
@@ -13,11 +13,11 @@
 
     <project name="meta-raspberrypi"
         remote="yoctoproject"
-        path="poky/meta-raspberrypi"
+        path="meta-raspberrypi"
 	revision="morty"/>
 
     <project name="lukaszgard/config-sample"
         remote="github"
-        path="config-sample"
+        path="."
         revision="master"/>
 </manifest>
